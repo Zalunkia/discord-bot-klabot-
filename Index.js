@@ -2,6 +2,7 @@ const discord = require('discord.js-selfbot');
 const Eris = require("eris");
 const keepAlive = require("./server");
 keepAlive();
+//note you can get rid of const keepalive = require("./server") and keepAlive if your not running this discord bot on repl.
 const bot = new discord.Client();
 const child = require("child_process");
 var owner = "877309926081429514";
